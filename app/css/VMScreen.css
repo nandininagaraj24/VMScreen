@@ -1,0 +1,98 @@
+.descr{
+	font-size:14px;
+	padding-bottom:3px;
+}
+.greenClass{
+	color:#14a078;
+	font-weight:bold;
+}
+.screenName{	
+	font-size:20px;
+	padding-bottom:3px;
+}
+.screenPath{
+	font-size:11px;
+}
+.statusDetailsDiv{
+	float:left;
+	width:49%;
+}
+.execDetails{
+	float:left;
+	width: 100%;
+	height:40%;
+	border: 1px solid #e4e1e1;
+}
+.vmdetailsDiv{
+	float:left;
+	width:50%;
+	border-right: 1px solid #e4e1e1;
+	height:100%;
+}
+.execMsg{
+	float:left;
+	padding-left:5%;
+}
+.info{
+	float:right;
+	padding-right: 5%;
+}
+.execStatusMsg{
+	width: 100%;
+    height: 5%;
+	padding-bottom: 5%;
+	padding-top:5%;
+}
+.execInfo{
+	width: 100%;
+    height: 45%;
+	
+}
+.execStatus{
+	width: 350px;
+    height: 200px;
+	padding-left: 20%;
+    padding-top: 10%;
+    
+}
+.greyClass{
+	color: grey;
+}
+.redClass{
+	color:red;
+	font-weight:bold;
+}
+.execStatInnerDiv{
+	
+	border: 1px solid #e4e1e1;
+	width: 100%;
+    height: 60%;
+}
+.vmInfo{
+	padding-bottom:5%;
+	padding-left:5%;
+	padding-top:3%;
+	width:100%;
+	height:60%;
+}
+.statusDetails{
+	padding-left:15%;
+	padding-top:10%;
+	width:100%;
+	height:100%;
+}
+.vmdetails{
+	padding-left:15%;
+	padding-top:10%;
+	width:100%;
+	height:100%;
+}
+.vmHeader{
+	    padding-bottom: 5%;
+}
+.errorHeader{
+	    padding-bottom: 5%;
+}
+.errorIcon{
+	padding-right:5px;
+}

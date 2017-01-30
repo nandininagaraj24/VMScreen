@@ -1,0 +1,32 @@
+<div class="execStatus">
+	<div class="execStatInnerDiv">
+		<div class="execStatusMsg">
+			<div ng-if="status == 'ERROR'" class="execMsg redClass"><span  class="errorIcon"><i class="fa fa-exclamation-circle" aria-hidden="true"></i></span>{{status}}</div>
+			<div ng-if="status == 'OK'" class="execMsg greenClass"><span  class="errorIcon"><i class="fa fa-check-circle" aria-hidden="true"></i></span>{{status}}</div>
+			<div class="info greyClass"><i class="fa fa-ellipsis-h" aria-hidden="true"></i></div>
+		</div>
+		<div class="execInfo">
+			<div class="vmInfo">
+				<div class="screenName greenClass">{{name}}</div>
+				<div class="descr greyClass">{{description}}</div>
+				<div class="screenPath greyClass">{{path}}</div>
+			</div>
+		</div>
+		</div>
+			<div class="execDetails" >
+				<div class="vmdetailsDiv">
+					<div class="vmdetails">
+						<div class="vmHeader greenClass">VMs</div>
+						<div class="numOfVM greenClass">{{numOfVMs}}</div>
+					</div>
+				</div>
+				<div class="statusDetailsDiv">
+					<div class="statusDetails">
+						<div class="errorHeader redClass">Errors</div>
+						<div class="numOfErrors redClass">{{numOfErrors}}</div>
+					</div>
+				</div>
+			</div>
+		
+	</div>
+</div>
